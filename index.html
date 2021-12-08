@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gerador de Link para whatsapp</title>
+  
+  <meta name="description" content="Gere links para whatsapp com mensagens personalizadas gratuitamente">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <div class="interface">
+   
+ 
+  <header id="cabecalho">
+    
+    <div id="imagemLogo">
+      <img src="whatsapp.svg"/>
+    </div>
+    <h1>Crie o link do seu whatsapp aqui</h1>
+    
+  </header>
+  
+  
+    <form class="formulario">
+      
+       <legend>
+        Digite seu número de telefone
+       </legend>
+        <input type="tel" name="" id="caixaNumero" maxlength="11"/>
+        <legend>
+          digite sua Mensagem personalizada. <span id="exemplo">(Ex: Olá, gostaria de saber mais sobre o produto)</span>
+         <input type="text" placeholder="digite a mensagem personalizada que as pessoas te enviarão ao entrar no link" id="caixaTexto">
+        </legend>
+      
+     
+      
+      
+      
+      
+    </form>
+     <input type="button" name="gerarLink" id="gerarLink" value="Gerar Link" />
+      <div class="areaCopy">
+       Link Pronto! Copie e compartilhe!
+        <input type="text" name="LinkPront" id="linkPronto" readonly="true"  />
+        
+      </div>
+      
+    <form action="https://www.paypal.com/donate" method="post" target="_top" id="formDonate">
+<input type="hidden" name="business" value="X4XVDTUX5BK98" />
+<input type="hidden" name="no_recurring" value="0" />
+<input type="hidden" name="item_name" value="Se minha ferramenta lhe ajudou de alguma forma, considere fazer um Donate de qualquer valor" />
+<input type="hidden" name="currency_code" value="BRL" />
+<input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Faça doações com o botão do PayPal" />
+<img alt="" border="0" src="https://www.paypal.com/pt_BR/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+  <footer class="rodape">
+    criado por Yrllan Brandao
+  </footer>
+  </div>
+ <script src="main.js"></script>
+</body>
+</html>
