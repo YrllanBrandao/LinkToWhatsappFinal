@@ -15,12 +15,19 @@ buttonCopy.addEventListener('click', () => {
   textoCopy.select();
   document.execCommand("copy");
   
-  areaCopy.innerHTML = "Copiado!";
+   areaCopy.innerHTML = "Copiado!";
  areaCopy.classList.toggle("active");
-  
-  
+ 
+  setInterval(hiddenMessage, 2000)
   
 })
+
+function hiddenMessage()
+{
+  areaCopy.classList.remove("active");
+  areaCopy.style.display = "none";
+}
+
 
 
 
