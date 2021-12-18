@@ -4,6 +4,24 @@ let caixaNumero = document.querySelector("#caixaNumero");
 var linkTemplate = "https://wa.me/55numeroTemplate?text=texto%20template";
 var areaCopy = document.querySelector(".areaCopy");
 
+const buttonCopy = document.querySelector(".buttonCopy");
+
+
+
+buttonCopy.addEventListener('click', () => {
+
+  
+  const textoCopy = document.querySelector("#linkPronto");
+  textoCopy.select();
+  document.execCommand("copy");
+  
+  areaCopy.innerHTML = "Copiado!";
+ areaCopy.classList.toggle("active");
+  
+  
+  
+})
+
 
 
 botaoGerar.addEventListener('click', () =>{
