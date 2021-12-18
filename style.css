@@ -7,7 +7,7 @@
 .logo {
   width: 48px;
   height: 48px;
-Border:none;
+
   
 }
  .interface{
@@ -27,9 +27,7 @@ Border:none;
   height:80px;
   line-height: 80px;
 }
-h1{
 
-}
 header{
   background:#77FF77;
   display:flex;
@@ -94,7 +92,7 @@ legend{
 .logo{
   width:48px;
   height:48px;
-  border:1px solid red;
+  
 }
 
 header{
