@@ -7,7 +7,7 @@
 .logo {
   width: 48px;
   height: 48px;
-  border: 1px solid red;
+  
 }
  .interface{
   background: #DEDEDE;
@@ -27,7 +27,7 @@
   line-height: 80px;
 }
 h1{
- margin-left: -50px;
+
 }
 header{
   background:#77FF77;
